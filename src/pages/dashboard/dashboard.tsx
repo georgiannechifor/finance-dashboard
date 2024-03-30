@@ -47,7 +47,7 @@ export const Dashboard = () => {
 
           <Row className="items-center gap-3 w-full justify-center mt-5">
             <Avatar src={GeorgianAvatar} size={collapsed ? 40 : 70} />
-            {!collapsed && <span className="font-semibold text-md">Georgian Nechifor</span>}
+            {!collapsed && <span className="font-semibold text-md">Georgian</span>}
           </Row>
         </div>
       </Layout.Sider>
