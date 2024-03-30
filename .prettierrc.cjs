@@ -9,7 +9,7 @@ module.exports = {
   importOrder: [
     '^react',
     '<THIRD_PARTY_MODULES>',
-    '^@components/(.*)$',
+    '^@layouts/(.*)$',
     '^@hooks/(.*)$',
     '^@pages/(.*)$',
     '^@src/(.*)$',

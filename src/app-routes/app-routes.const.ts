@@ -1,4 +1,7 @@
 export const APP_ROUTES_CONST = {
-  root: '/finance-dashboard',
-  empty: '/'
+  root: '/',
+  financeDashboard: 'finance-dashboard',
+  dashboard: 'dashboard',
+  products: 'products',
+  userManagement: 'user-management'
 } as const;
