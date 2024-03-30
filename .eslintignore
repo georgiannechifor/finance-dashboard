@@ -1,0 +1,13 @@
+node_modules
+dist
+jest
+envs
+scripts
+dev-dist
+.azure
+.eslintrc.cjs
+jest.config.js
+tailwind.config.cjs
+vite-env.d.ts
+mockServiceWorker.js
+reset.d.ts

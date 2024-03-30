@@ -1,0 +1,6 @@
+node_modules
+dist
+.azure
+dev-dist
+mockServiceWorker.js
+README.md
