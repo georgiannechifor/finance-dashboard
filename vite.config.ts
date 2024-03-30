@@ -19,7 +19,6 @@ const buildManualChunks = () => {
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/',
   build: {
     chunkSizeWarningLimit: 1500,
     sourcemap: false,
