@@ -114,6 +114,7 @@ module.exports = {
         namedComponents: ['function-declaration', 'function-expression', 'arrow-function']
       }
     ],
+    'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-props-no-spreading': 'off',
     'react/require-default-props': [

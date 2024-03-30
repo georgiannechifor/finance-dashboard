@@ -12,14 +12,11 @@ module.exports = {
     '^@components/(.*)$',
     '^@hooks/(.*)$',
     '^@pages/(.*)$',
-    '^@redux/(.*)$',
     '^@src/(.*)$',
-    '^@types/(.*)$',
     '^@utils/(.*)$',
     '^@assets/(.*)$',
     '^[./].*(?<!\\.(c|le|sc)ss)$',
     '\\.(c|le|sc)ss$'
-    // '^[.]/[-a-zA-Z0-9_]+[.](css|scss|less)$'
   ],
   importOrderCaseInsensitive: true,
   importOrderSortSpecifiers: true,
