@@ -8,6 +8,7 @@ export const AppRoutes = () => (
     <Routes>
       <Route element={<Outlet />}>
         <Route path={APP_ROUTES_CONST.root} element={<Dashboard />} />
+        <Route path={APP_ROUTES_CONST.empty} element={<Dashboard />} />
       </Route>
     </Routes>
   </Layout>

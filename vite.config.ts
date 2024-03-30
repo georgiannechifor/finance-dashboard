@@ -19,6 +19,7 @@ const buildManualChunks = () => {
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/finance-dashboard',
   build: {
     chunkSizeWarningLimit: 1500,
     sourcemap: false,
