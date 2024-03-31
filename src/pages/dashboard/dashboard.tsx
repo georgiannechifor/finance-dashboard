@@ -1,8 +1,5 @@
-import { InfoCircleOutlined, PlusOutlined, RetweetOutlined, ToTopOutlined } from '@ant-design/icons';
 import { Column } from '@ant-design/plots';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Button, Card as CardAnt, Col, Empty, Row, Space, Typography } from 'antd';
-import useBreakpoint from 'antd/es/grid/hooks/useBreakpoint';
+import { Card as CardAnt, Col, Empty, Row, Space, Typography } from 'antd';
 import { Card } from '../../components/dashboard/card';
 import { Notification } from '../../components/dashboard/notification';
 import { ServiceProvider } from '../../components/dashboard/service-provider';
