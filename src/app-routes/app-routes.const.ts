@@ -2,6 +2,6 @@ export const APP_ROUTES_CONST = {
   root: '/',
   financeDashboard: 'finance-dashboard',
   dashboard: 'dashboard',
-  products: 'products',
-  userManagement: 'user-management'
+  wallets: 'wallets',
+  merchants: 'merchants'
 } as const;

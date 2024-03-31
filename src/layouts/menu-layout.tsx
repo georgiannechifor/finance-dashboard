@@ -1,20 +1,22 @@
 import { useState } from 'react';
-import { Outlet } from 'react-router-dom';
-import { BellOutlined, LayoutOutlined, LeftOutlined, ProductOutlined, RightOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons';
+import { Outlet, useNavigate } from 'react-router-dom';
+import { BellOutlined, LeftOutlined, RightOutlined, SettingOutlined } from '@ant-design/icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Avatar, Button, Divider, Image, Layout, Menu, Row } from 'antd';
 import GeorgianAvatar from '../assets/georgian.jpg';
 import Logo from '../assets/logo.jpg';
 import { getItem } from '../utils/menu-utils';
 
 const items = [
-  getItem('Dashboard', 'dashboard', <LayoutOutlined />),
-  getItem('Products', 'products', <ProductOutlined />, [getItem('product-1', 'Product 1'), getItem('product-2', 'Product 2')]),
-  getItem('User Management', 'user-management', <UserOutlined />)
+  getItem('Dashboard', 'dashboard', <FontAwesomeIcon icon={['fas', 'layer-group']} />),
+  getItem('Wallets', 'wallets', <FontAwesomeIcon icon={['fas', 'wallet']} />),
+  getItem('Merchants', 'merchants', <FontAwesomeIcon icon={['fas', 'store']} />)
 ];
 
 const bottomItems = [getItem('Notifications', 'notifications', <BellOutlined />), getItem('Settings', 'settings', <SettingOutlined />)];
 
 export const MenuLayout = () => {
+  const navigate = useNavigate();
   const [collapsed, setCollapsed] = useState<boolean>(false);
 
   return (
@@ -34,7 +36,7 @@ export const MenuLayout = () => {
         </Row>
 
         <Menu
-          onSelect={(item) => console.log(item)}
+          onSelect={(item) => navigate(item.key)}
           mode="inline"
           theme="light"
           defaultSelectedKeys={['dashboard']}

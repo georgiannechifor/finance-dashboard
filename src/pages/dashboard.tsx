@@ -1,8 +1,8 @@
 import { Column } from '@ant-design/plots';
 import { Card as CardAnt, Col, Empty, Row, Space, Typography } from 'antd';
-import { Card } from '../../components/dashboard/card';
-import { Notification } from '../../components/dashboard/notification';
-import { ServiceProvider } from '../../components/dashboard/service-provider';
+import { Card } from '../components/dashboard/card';
+import { Notification } from '../components/dashboard/notification';
+import { ServiceProvider } from '../components/dashboard/service-provider';
 
 const { Title } = Typography;
 
