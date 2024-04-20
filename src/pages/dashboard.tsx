@@ -7,13 +7,139 @@ import { ServiceProvider } from '../components/dashboard/service-provider';
 const { Title } = Typography;
 
 const config = {
-  data: {
-    type: 'fetch',
-    value: 'https://gw.alipayobjects.com/os/antfincdn/iPY8JFnxdb/dodge-padding.json'
-  },
-  xField: '月份',
-  yField: '月均降雨量',
+  data: [
+    {
+      name: 'Top-ups',
+      amount: 25000,
+      value: '25-03-2024'
+    },
+    {
+      name: 'Transfers',
+      amount: 8000,
+      value: '25-03-2024'
+    },
+    {
+      name: 'Payouts',
+      amount: 15000,
+      value: '25-03-2024'
+    },
+
+    {
+      name: 'Top-ups',
+      amount: 8000,
+      value: '26-03-2024'
+    },
+    {
+      name: 'Transfers',
+      amount: 16000,
+      value: '26-03-2024'
+    },
+    {
+      name: 'Payouts',
+      amount: 35000,
+      value: '26-03-2024'
+    },
+
+    {
+      name: 'Top-ups',
+      amount: 2000,
+      value: '27-03-2024'
+    },
+    {
+      name: 'Transfers',
+      amount: 8000,
+      value: '27-03-2024'
+    },
+    {
+      name: 'Payouts',
+      amount: 3000,
+      value: '27-03-2024'
+    },
+
+    {
+      name: 'Top-ups',
+      amount: 25000,
+      value: '28-03-2024'
+    },
+    {
+      name: 'Transfers',
+      amount: 8000,
+      value: '28-03-2024'
+    },
+    {
+      name: 'Payouts',
+      amount: 15000,
+      value: '28-03-2024'
+    },
+
+    {
+      name: 'Top-ups',
+      amount: 25000,
+      value: '29-03-2024'
+    },
+    {
+      name: 'Transfers',
+      amount: 8000,
+      value: '29-03-2024'
+    },
+    {
+      name: 'Payouts',
+      amount: 15000,
+      value: '29-03-2024'
+    },
+
+    {
+      name: 'Top-ups',
+      amount: 25000,
+      value: '30-03-2024'
+    },
+    {
+      name: 'Transfers',
+      amount: 8000,
+      value: '30-03-2024'
+    },
+    {
+      name: 'Payouts',
+      amount: 15000,
+      value: '30-03-2024'
+    },
+
+    {
+      name: 'Top-ups',
+      amount: 25000,
+      value: '31-03-2024'
+    },
+    {
+      name: 'Transfers',
+      amount: 8000,
+      value: '31-03-2024'
+    },
+    {
+      name: 'Payouts',
+      amount: 15000,
+      value: '31-03-2024'
+    },
+
+    {
+      name: 'Top-ups',
+      amount: 25000,
+      value: '01-04-2024'
+    },
+    {
+      name: 'Transfers',
+      amount: 8000,
+      value: '01-04-2024'
+    },
+    {
+      name: 'Payouts',
+      amount: 35000,
+      value: '01-04-2024'
+    }
+  ],
+  xField: 'value',
+  yField: 'amount',
   colorField: 'name',
+  legend: true,
   group: true,
   style: {
     inset: 5
