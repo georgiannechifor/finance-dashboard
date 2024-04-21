@@ -1,4 +1,5 @@
 import ReactCountryFlag from 'react-country-flag';
+import { useSearchParams } from 'react-router-dom';
 import { ArrowLeftOutlined, SearchOutlined } from '@ant-design/icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button, Input, Row, Select, Table, Tabs, Tag, Typography } from 'antd';
@@ -50,6 +51,7 @@ const data = [
 ];
 
 export const MerchantDetails = () => {
+  const [, setParams] = useSearchParams();
   const columns = [
     {
       key: 'currency',
@@ -99,7 +101,7 @@ export const MerchantDetails = () => {
 
   return (
     <Row className="flex flex-col items-stretch">
-      <Button className="self-start" type="text" icon={<ArrowLeftOutlined />}>
+      <Button className="self-start" type="text" icon={<ArrowLeftOutlined />} onClick={() => setParams('')}>
         <span>Merchants list</span>
       </Button>
 
