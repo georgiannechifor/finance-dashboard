@@ -39,7 +39,7 @@ export const MenuLayout = () => {
           onSelect={(item) => navigate(item.key)}
           mode="inline"
           theme="light"
-          defaultSelectedKeys={['dashboard']}
+          defaultSelectedKeys={[window.location.href.split('/').at(-1) ?? 'dashboard']}
           className="border-none w-full flex-1"
           items={items}
         />
