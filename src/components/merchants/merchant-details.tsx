@@ -7,6 +7,7 @@ import { PaymentStatus } from '../wallets/payment-status';
 
 const data = [
   {
+    id: 1,
     currency: 'USD',
     countryCode: 'RO',
     country: 'Romania',
@@ -14,6 +15,7 @@ const data = [
     status: 1
   },
   {
+    id: 2,
     currency: 'USD',
     countryCode: 'US',
     country: 'Romania',
@@ -21,6 +23,7 @@ const data = [
     status: 1
   },
   {
+    id: 3,
     currency: 'USD',
     countryCode: 'DE',
     country: 'Romania',
@@ -28,6 +31,7 @@ const data = [
     status: 1
   },
   {
+    id: 4,
     currency: 'USD',
     countryCode: 'BE',
     country: 'Romania',
@@ -35,6 +39,7 @@ const data = [
     status: 3
   },
   {
+    id: 5,
     currency: 'USD',
     countryCode: 'IT',
     country: 'Romania',
@@ -42,6 +47,7 @@ const data = [
     status: 2
   },
   {
+    id: 6,
     currency: 'USD',
     countryCode: 'US',
     country: 'Romania',

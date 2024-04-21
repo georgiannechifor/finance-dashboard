@@ -70,7 +70,7 @@ export const MerchantList = () => {
       title: 'Actions',
       key: 'actions',
       width: 200,
-      render: (_, record: any) => (
+      render: (_: any, record: any) => (
         <Button type="text" className="text-blue-500" onClick={() => navigate(`?id=${record.id}`)}>
           View profile
         </Button>
