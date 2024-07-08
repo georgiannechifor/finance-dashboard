@@ -1,3 +1,3 @@
 # Finance Dashboard
 
-This project is done as a part of my portfolio.
+This project is created as a part of my portfolio.
